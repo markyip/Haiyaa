@@ -1,4 +1,4 @@
-# 🏎️ Forza Horizon 6 Crash Detector
+# 🏎️ Forza Horizon 6: The Haiyaa Engine
 
 <img src="https://img.shields.io/badge/version-2.4-blue" alt="Version"> <img src="https://img.shields.io/github/downloads/markyip/RAWviewer/total" alt="Downloads"> <img src="https://img.shields.io/badge/license-MIT-green" alt="License"> <a href="https://www.buymeacoffee.com/markyip"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-orange?logo=buy-me-a-coffee" alt="Buy Me a Coffee"></a>
 
