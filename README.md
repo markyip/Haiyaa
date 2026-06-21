@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/version-2.4-blue" alt="Version"> <img src="https://img.shields.io/github/downloads/markyip/RAWviewer/total" alt="Downloads"> <img src="https://img.shields.io/badge/license-MIT-green" alt="License"> <a href="https://www.buymeacoffee.com/markyip"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-orange?logo=buy-me-a-coffee" alt="Buy Me a Coffee"></a>
 
-Haiyaa! Did you just take that 180-degree turn at 200 mph and wrap your multi-million dollar hypercar around a virtual tree? Uncle Roger is not angry. Uncle Roger is just disappointed. This is a simple, zero-dependency command-line Python application designed to run on Windows. It listens to the live UDP telemetry broadcast by Forza Horizon 6 (and other recent Forza titles) and automatically plays a local audio clip (crash.wav) when a crash is detected.
+Haiyaa! Did you just take that 180-degree turn at 200 mph and wrap your multi-million dollar hypercar around a virtual tree? Uncle Roger is not angry. Uncle Roger is just disappointed. This is a simple, zero-dependency command-line Python application designed to run on Windows. It listens to the live UDP telemetry broadcast by Forza Horizon 6 (and other recent Forza titles) and automatically plays a local audio clip when a crash is detected.
 
 We use a combined G-force spike and sudden speed-drop algorithm—advanced technology to sense your total lack of driving talent.
 
