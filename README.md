@@ -11,7 +11,7 @@ Before you start embarrassing yourself, make sure you have:
 *   **Operating System:** Windows 10 or 11 (uses native Windows APIs. Good job, Bill Gates).
 *   **Python:** Python 3.6 or newer installed and added to your system's Environment Variables (PATH). If you don't know what PATH is, haiyaa, go ask your smart cousin.
 *   **FFmpeg (Optional):** Required only if you intend to convert sad MP3 files to glorious WAV using the built-in converter script (`convert_mp3_to_wav.py`).
-*   **Forza Horizon 6:** Installed on the same PC, another PC, or an Xbox console on your local network.
+*   **Forza Horizon 6:** Installed on the same PC.
 
 ---
 
@@ -34,7 +34,7 @@ In FH6, open your settings menu. Don't mess this up, it's easier than making fri
 3. Set **Data Out IP Address**: `127.0.0.1`
 4. Set **Data Out IP Port**: `5700`
 
-*(Use `127.0.0.1` when the app runs on the same PC as the game. If you play on Xbox, put your PC's local IP address here).*
+*(Use `127.0.0.1` when the app runs on the same PC as the game).*
 
 ---
 
