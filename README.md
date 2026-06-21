@@ -37,6 +37,8 @@ In FH6, open your settings menu. Don't mess this up, it's easier than making fri
 3. Set **Data Out IP Address**: `127.0.0.1`
 4. Set **Data Out IP Port**: `5700`
 
+![Forza Horizon 6 Telemetry Configuration](images/config.png)
+
 *(Use `127.0.0.1` when the app runs on the same PC as the game).*
 
 ---
