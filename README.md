@@ -14,12 +14,13 @@ Before running the application, make sure you have:
 ---
 
 ## 1. Setup Audio File
-Create a folder named **`sounds`** in the same directory as the script, and place your short audio clips in `.wav` format inside it (for example, `sounds/crash.wav`, `sounds/roast.wav`, etc.).
+Create a folder named **`sounds`** in the same directory as the script.
 
-### Random Audio Playback / Multiple Clips
-The app automatically scans the `sounds` folder for **all** `.wav` files. Each time a crash is detected, it will randomly select and play one of these files!
+### Customizing Your Audio
+*   **Custom Audio Clips:** You can place your own custom `.wav` files inside the `sounds` folder. Feel free to add, remove, or swap audio files at any time!
+*   **Randomized Playback:** If you place multiple `.wav` files inside the `sounds` folder, the app will automatically select and play a random clip every time you crash!
 
-*(Note: Windows `winsound` API natively requires `.wav` files. You can convert any `.mp3` or other format to `.wav` using free online tools. There is a hardcoded playback limit of **5 seconds** per alert).*
+*(Note: Windows `winsound` API natively requires `.wav` files. You can convert any `.mp3` or other format to `.wav` using the built-in batch launcher tools or free online converters. There is a hardcoded playback limit of **5 seconds** per alert).*
 
 ---
 
