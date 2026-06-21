@@ -4,6 +4,15 @@ This is a simple, zero-dependency command-line Python application designed to ru
 
 ---
 
+## Prerequisites
+Before running the application, make sure you have:
+*   **Operating System:** Windows 10 or 11 (primary support; uses native Windows APIs).
+*   **Python:** Python 3.6 or newer installed and added to your system's Environment Variables (PATH).
+*   **FFmpeg (Optional):** Required only if you intend to convert MP3 files to WAV using the built-in converter script (`convert_mp3_to_wav.py`).
+*   **Forza Horizon 6:** Installed on the same PC, another PC, or an Xbox console on your local network.
+
+---
+
 ## 1. Setup Audio File
 Create a folder named **`sounds`** in the same directory as the script, and place your short audio clips in `.wav` format inside it (for example, `sounds/crash.wav`, `sounds/roast.wav`, etc.).
 
@@ -27,8 +36,18 @@ Data Out IP Port:    5700
 Use 127.0.0.1 when the app runs on the same PC as the game.
 
 
-## 3. Running the Script
-Open Command Prompt (`cmd`) or PowerShell on Windows in the directory containing the script and run:
+## 3. Running the Application
+The easiest way to run the application is by using the pre-configured Windows batch file:
+
+### Option A: Using the Launcher (Recommended)
+1. Double-click the **`run.bat`** file in the application directory.
+2. Select from the interactive menu:
+   *   **`1`**: Start the Crash Detector with default settings (port `5700`, G-force threshold `15.0 G`, cooldown `3s`).
+   *   **`2`**: Show command-line help options.
+   *   **`3`**: Exit.
+
+### Option B: Command Line (Advanced)
+Open Command Prompt (`cmd`) or PowerShell in the directory containing the script and run:
 
 ```bash
 python crash_detector.py
